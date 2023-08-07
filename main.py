@@ -350,14 +350,14 @@ if __name__ == "__main__":
     print(result)
 
     df = pd.read_csv(
-        r"C:\Users\NamaPCMU\PATH\address.csv")
+        r"/storage/9C33-6BBD/Download/Gmail-BOTV2aaa-main/address.csv")
 
     for data in result:
         if data:
             df.loc[len(df)] = data
 
     df.to_csv(
-        r"C:\Users\NamaPCMU\PATH\address.csv", index=False)
+        r"/storage/9C33-6BBD/Download/Gmail-BOTV2aaa-main/address.csv", index=False)
 
     # main()
 
